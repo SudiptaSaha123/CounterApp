@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <div class="text-[#0398d4] font-medium text-[20px]">Increment And Decrement</div>
+
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-md gap-12 p-3 px-5">
+            <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5"><i class="fa-solid fa-minus"></i></button>
+            <div class="font-bold" id="counter">0</div>
+            <button onclick="increment()" class="border-l-2 border-[#bfbfbf] pl-5"><i class="fa-solid fa-plus"></i></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/f85326da02.js" crossorigin="anonymous"></script>
+</body>
+</html>
