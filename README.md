@@ -1,0 +1,1 @@
+This is a simple counter app made with HTML, TailwindCSS, Javascript
